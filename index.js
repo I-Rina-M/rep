@@ -1,9 +1,7 @@
 
 //display greeting
 let welcomeEl = document.getElementById('welcome-el')
-let name = 'Irina'
-let greeting = 'Welcome back, '
-welcomeEl.innerText = greeting + name
+welcomeEl.innerText = "Welcome, friend"
 welcomeEl.innerText += " :)"
 
 let count = 0 // intialize the count as 0
